@@ -84,13 +84,13 @@ export default function App({ Component, pageProps }: AppProps) {
             fontSize: 16,
             poweredByTextColor: "#46604A",
             botMessage: {
-              backgroundColor: "#2F3437",
+              backgroundColor: "#46604A",
               textColor: "#FFFFFF",
               showAvatar: true,
               avatarSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1193997275425411183/sanctuary-icon.png",
             },
             userMessage: {
-              backgroundColor: "#46604A",
+              backgroundColor: "#2f3437",
               textColor: "#ffffff",
               showAvatar: false,
               avatarSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1193997275425411183/sanctuary-icon.png",
