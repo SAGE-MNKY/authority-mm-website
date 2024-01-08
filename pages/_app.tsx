@@ -74,32 +74,32 @@ export default function App({ Component, pageProps }: AppProps) {
             bottom: 20,
             size: "medium",
             iconColor: "white",
-            customIconSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1192627725140238346/authority-avatar-nobg4.png",
+            customIconSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1193997275425411183/sanctuary-icon.png",
           },
           chatWindow: {
-            welcomeMessage: "Welcome back Master Slade! How can I be of service?",
+            welcomeMessage: "Welcome back Adam! How can I be of service?",
             backgroundColor: "#2F3437",
             height: 700,
             width: 400,
             fontSize: 16,
             poweredByTextColor: "#2F3437",
             botMessage: {
-              backgroundColor: "#000000",
+              backgroundColor: "#3D5543",
               textColor: "#FFFFFF",
               showAvatar: true,
-              avatarSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1192627725140238346/authority-avatar-nobg4.png",
+              avatarSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1193997275425411183/sanctuary-icon.png",
             },
             userMessage: {
-              backgroundColor: "#C3061A",
+              backgroundColor: "#46604A",
               textColor: "#ffffff",
               showAvatar: true,
-              avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
+              avatarSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1193997275425411183/sanctuary-icon.png",
             },
             textInput: {
               placeholder: "Type your question",
               backgroundColor: "#2F3437",
               textColor: "#ffffff",
-              sendButtonColor: "#C3061A",
+              sendButtonColor: "#46604A",
             }
           }
         }}
