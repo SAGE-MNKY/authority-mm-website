@@ -69,7 +69,7 @@ export default function App({ Component, pageProps }: AppProps) {
         apiHost="https://flowise-studio.moodmnky.com"
         theme={{
           button: {
-            backgroundColor: "#2F3437",
+            backgroundColor: "#012422",
             right: 20,
             bottom: 20,
             size: "medium",
@@ -78,13 +78,13 @@ export default function App({ Component, pageProps }: AppProps) {
           },
           chatWindow: {
             welcomeMessage: "Welcome back Adam! How can I be of service?",
-            backgroundColor: "#2F3437",
+            backgroundColor: "#012422",
             height: 700,
             width: 400,
             fontSize: 16,
-            poweredByTextColor: "#2F3437",
+            poweredByTextColor: "#012422",
             botMessage: {
-              backgroundColor: "#3D5543",
+              backgroundColor: "#2F3437",
               textColor: "#FFFFFF",
               showAvatar: true,
               avatarSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1193997275425411183/sanctuary-icon.png",
@@ -92,14 +92,14 @@ export default function App({ Component, pageProps }: AppProps) {
             userMessage: {
               backgroundColor: "#46604A",
               textColor: "#ffffff",
-              showAvatar: true,
+              showAvatar: false,
               avatarSrc: "https://cdn.discordapp.com/attachments/1083532452347269220/1193997275425411183/sanctuary-icon.png",
             },
             textInput: {
               placeholder: "Type your question",
               backgroundColor: "#2F3437",
               textColor: "#ffffff",
-              sendButtonColor: "#46604A",
+              sendButtonColor: "#012422",
             }
           }
         }}
