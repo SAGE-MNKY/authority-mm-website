@@ -69,7 +69,7 @@ export default function App({ Component, pageProps }: AppProps) {
         apiHost="https://flowise-studio.moodmnky.com"
         theme={{
           button: {
-            backgroundColor: "#012422",
+            backgroundColor: "#46604A",
             right: 20,
             bottom: 20,
             size: "medium",
@@ -78,11 +78,11 @@ export default function App({ Component, pageProps }: AppProps) {
           },
           chatWindow: {
             welcomeMessage: "Welcome back Adam! How can I be of service?",
-            backgroundColor: "#012422",
+            backgroundColor: "#46604A",
             height: 700,
             width: 400,
             fontSize: 16,
-            poweredByTextColor: "#012422",
+            poweredByTextColor: "#46604A",
             botMessage: {
               backgroundColor: "#2F3437",
               textColor: "#FFFFFF",
@@ -99,7 +99,7 @@ export default function App({ Component, pageProps }: AppProps) {
               placeholder: "Type your question",
               backgroundColor: "#2F3437",
               textColor: "#ffffff",
-              sendButtonColor: "#012422",
+              sendButtonColor: "#46604A",
             }
           }
         }}
